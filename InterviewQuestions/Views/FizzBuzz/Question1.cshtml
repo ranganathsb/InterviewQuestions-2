@@ -1,0 +1,16 @@
+﻿@using InterviewQuestions.Models
+
+@model FizzBuzzVM
+
+@{
+    ViewBag.Title = "Question1";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Answer</h2>
+
+@foreach (var n in Model.Numbers)
+{
+    @n.ToString() <br />
+}
+    
