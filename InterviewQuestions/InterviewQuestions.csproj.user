@@ -13,7 +13,7 @@
           <SQLDebugging>False</SQLDebugging>
           <ExternalProgram>
           </ExternalProgram>
-          <StartExternalURL>http://localhost:52305/fizzbuzz/Question1</StartExternalURL>
+          <StartExternalURL>http://localhost:52305/Interview/Question1</StartExternalURL>
           <StartCmdLineArguments>
           </StartCmdLineArguments>
           <StartWorkingDirectory>

@@ -1,0 +1,18 @@
+﻿@using InterviewQuestions.Models
+
+@model FizzBuzzVM
+
+@{
+    ViewBag.Title = "Question1";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Answer</h2>
+
+@foreach (var o in Model.Output)
+{
+    @o <br />
+}
+    
+
+<a href='@Url.Action("Question2")' >Next Question</a>
