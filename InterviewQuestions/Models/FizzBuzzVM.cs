@@ -9,9 +9,9 @@ namespace InterviewQuestions.Models
     {
         public FizzBuzzVM()
         {
-            Numbers = new List<int>();
+            Output = new List<string>();
         }
 
-        public List<int> Numbers { get; set; }
+        public List<string> Output { get; set; }
     }
 }

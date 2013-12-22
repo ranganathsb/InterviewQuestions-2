@@ -16,7 +16,19 @@ namespace InterviewQuestions.Controllers
         {
             var model = new FizzBuzzVM();
 
-            model.Numbers.Add(1);
+            // TODO - implement fizz buzz logic.
+
+            // add all numbers from 1 to 100 to the model.Numbers.
+
+            // if the number is divisible by 3, print fizz.
+            // if the number is divisible by 5, print buzz.
+            // if the number is divisible by 3 and 5, print fizzbuzz.
+
+            for (var i = 1; i <= 100; i++)
+            {
+                model.Output.Add(i.ToString());
+            }
+
 
 
             return View(model);
